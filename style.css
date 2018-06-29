@@ -1,6 +1,14 @@
+.parallax{
+    background: url("https://i.ytimg.com/vi/hAG2J2IuGF8/maxresdefault.jpg");
+    height: 100hv;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 .box{
     display: inline-block;
     padding: 10px;
+    color: white;
 
 }
 .box:hover{
@@ -15,4 +23,3 @@ hr{
 }
 .card-img-top:hover{
     opacity: 0.5;
-}
